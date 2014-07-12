@@ -1,0 +1,26 @@
+/* SQLite log schema for bdxlog2 30-APR-2009 */
+/* note: my_qso_id is now ROWID,
+	 former primary key now changed to unique */
+
+CREATE TABLE qso (
+  my_call varchar(20) NOT NULL DEFAULT '',
+  my_qth varchar(40) DEFAULT NULL,
+  qso_date date NOT NULL DEFAULT '0000-00-00',
+  time_on time NOT NULL DEFAULT '00:00:00',
+  time_off time DEFAULT NULL,
+  call varchar(20) NOT NULL DEFAULT '',
+  rst_sent varchar(4) DEFAULT NULL,
+  rst_rcvd varchar(4) DEFAULT NULL,
+  qsl_sent char(1) DEFAULT NULL,
+  qsl_rcvd char(1) DEFAULT NULL,
+  mode varchar(12) NOT NULL DEFAULT '',
+  band varchar(8) NOT NULL DEFAULT '',
+  qslmsg varchar(64) DEFAULT NULL,
+  qsl_via varchar(20) DEFAULT NULL,
+  contest_id varchar(64) DEFAULT NULL,
+  srx varchar(16) DEFAULT NULL,
+  stx varchar(16) DEFAULT NULL,
+  my_qso_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  comment text,
+  UNIQUE (my_call, qso_date, time_on, call, mode, band)
+);
