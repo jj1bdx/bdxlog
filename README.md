@@ -10,8 +10,12 @@ FreeBSD Port utilities as:
 * Python 2.7.x
 * SQLite 3
 
-## TODO
+## TODO, or bdxlog-ng plan
 
 * Pathname fix for each scripts
 * Documentation
-
+* Remove `savelog` (GPLv2)
+* Make use of git
+   * Version control of the log files
+   * Getting the most out of the append-only characteristics
+* Backing up sqlite DB (is git suitable with this?)
