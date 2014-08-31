@@ -19,3 +19,4 @@ FreeBSD Port utilities as:
    * Version control of the log files
    * Getting the most out of the append-only characteristics
 * Backing up sqlite DB (is git suitable with this?)
+* Integration with LoTW / tqsllib tools
