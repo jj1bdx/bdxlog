@@ -2,13 +2,17 @@
 
 Ham radio station logging system for JJ1BDX (all based on CUI, running on FreeBSD)
 
-## requirements
+## Requirements
 
 FreeBSD Port utilities as:
 
-* Perl 5.18.2
+* Perl 5.18.x
 * Python 2.7.x
 * SQLite 3
+
+## Notes
+
+* Example callsign of JO3FUO was once assigned to Kenji Rikitake from 2005 to 2014, currently deactivated.
 
 ## TODO, or bdxlog-ng plan
 
