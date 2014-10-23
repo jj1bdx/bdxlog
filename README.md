@@ -24,3 +24,4 @@ FreeBSD Port or pkg kits of:
    * Getting the most out of the append-only characteristics
 * Backing up sqlite DB (is git suitable with this?)
 * Integration with LoTW / tqsllib tools
+* Migration from old set of files
