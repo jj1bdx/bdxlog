@@ -4,7 +4,7 @@ Ham radio station logging system for JJ1BDX (all based on CUI, running on FreeBS
 
 ## Requirements
 
-FreeBSD Port utilities as:
+FreeBSD Port or pkg kits of:
 
 * Perl 5.18.x
 * Python 2.7.x
